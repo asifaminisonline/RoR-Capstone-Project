@@ -72,7 +72,7 @@
 
 ## 🚀 Video Presentation <a name="presentation"></a>
 
-- [Video Presentation Link](https://www.loom.com/share/297fc1b60eb44e3aacf63b6b7d95afd6)- Powered by Loom
+- [Video Presentation Link](https://www.loom.com/share/297fc1b60eb44e3aacf63b6b7d95afd6?t=4)- Powered by Loom
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
