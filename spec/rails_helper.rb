@@ -6,18 +6,6 @@ require_relative '../config/environment'
 abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
-def login_user
-  @user = User.create(email: 'george@gmail.com', password: 'password', password_confirmation: 'password',
-                      name: 'George')
-  @group = Group.create(name: 'Test Group',
-                        icon: 'https://img.freepik.com/premium-vector/grocery-food-cardboard-box-icon-isolated-white-vector-flat-illustration_623508-34.jpg', author_id: @user.id)
-  @purchase = Purchase.create(name: 'Test Purchase', amount: 10, author_id: @user.id)
-  @group.purchases << @purchase
-  visit user_session_path
-  fill_in 'Email', with: 'george@gmail.com'
-  fill_in 'Password', with: 'password'
-  click_button 'Log In'
-end
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are

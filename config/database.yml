@@ -9,13 +9,13 @@ default: &default
 
 development:
   <<: *default
-  database: dev_db
+  database: dev_db-1
   username: dev
   password: root
 
 test:
   <<: *default
-  database: test_db
+  database: test_db-1
   username: dev
   password: root
 
