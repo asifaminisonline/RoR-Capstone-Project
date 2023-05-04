@@ -177,7 +177,7 @@ If you like this project you can give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for providing all the resources to buld this
+I give credit to Gregoire Vella on Behance for the original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
