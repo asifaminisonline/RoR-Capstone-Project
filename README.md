@@ -187,4 +187,4 @@ I would like to thank microverse for providing all the resources to buld this
 
 This project is [MIT](https://github.com/asifaminisonline/RoR-Capstone-Project/blob/dev/LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p
