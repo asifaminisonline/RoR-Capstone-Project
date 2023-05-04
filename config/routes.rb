@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
   devise_for :users
-  root "splash#index"
-  resources :groups do
-    resources :entities, only: [:new, :create, :edit, :update]
-  end
-  resources :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "home#index"
+  get 'home/index'
+  resources :groups, only: [:index, :show, :new, :create, :destroy] do
+    resources :purchases, only: [:new, :create, :destroy]
+  end
 end
+#  EDITOR="mate --wait" bin/rails credentials:edit
